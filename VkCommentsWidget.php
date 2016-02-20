@@ -26,6 +26,7 @@ class VkCommentsWidget extends WidgetRenderable
     const ATTACH_VIDEO      = 'video';
     const ATTACH_LINK       = 'link';
 
+    public $adaptiveWith    = true;
     public $limit           = 10;
     public $width           = 500;
     public $autoPublish     = 1;
