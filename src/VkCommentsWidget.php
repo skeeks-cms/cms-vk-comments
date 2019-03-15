@@ -118,9 +118,9 @@ class VkCommentsWidget extends WidgetRenderable
     /**
      * @return string
      */
-    protected function _run()
+    public function run()
     {
         VkAsset::register($this->view);
-        return parent::_run();
+        return parent::run();
     }
 }
